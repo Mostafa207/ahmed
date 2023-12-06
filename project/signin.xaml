@@ -1,0 +1,41 @@
+﻿<Page x:Class="project.signin"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:project"
+       Background="White"
+      d:DesignHeight="700" d:DesignWidth="600" 
+      Title="signin">
+
+    <Grid RenderTransformOrigin="0.468,0.5">
+        <TextBox x:Name="txtin1" HorizontalAlignment="Center" Margin="0,62,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="224" Height="50" FontSize="30" TextChanged="TextBox_TextChanged"/>
+        <Label Content="name" HorizontalAlignment="Left" Margin="53,50,0,0" VerticalAlignment="Top" FontSize="30" Width="94"/>
+        <TextBox x:Name="txtin2" HorizontalAlignment="Center" Margin="0,154,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="224" Height="50" FontSize="30"/>
+        <Label Content="password" HorizontalAlignment="Left" Margin="30,154,0,0" VerticalAlignment="Top" FontSize="30" Width="140"/>
+        <Button x:Name="buttton_in" Content="signin" HorizontalAlignment="Center" Margin="0,268,0,0" VerticalAlignment="Top" Height="48" Width="128"  FontSize="30"/>
+        <Button x:Name="button_f" Content="forget password" HorizontalAlignment="Left" Margin="216,340,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Width="162" Height="40">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.209"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="button_up" Content="singup" HorizontalAlignment="Left" Margin="148,462,0,0" VerticalAlignment="Top" Height="44" Width="138"/>
+        <Label Content="new user" HorizontalAlignment="Left" Margin="25,463,0,0" VerticalAlignment="Top" FontSize="20" Width="105" RenderTransformOrigin="0.5,0.5">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="-1.242"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="-0.541"/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+
+
+    </Grid>
+</Page>

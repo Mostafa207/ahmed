@@ -1,0 +1,23 @@
+﻿<Page x:Class="project.forget"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:project"
+      mc:Ignorable="d" 
+       Background="White"
+      d:DesignHeight="700" d:DesignWidth="600"
+      Title="forget">
+
+    <Grid>
+        <TextBox x:Name="txtf1" HorizontalAlignment="Center" Margin="0,62,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="224" Height="50" FontSize="30" TextChanged="TextBox_TextChanged"/>
+        <Label Content="name" HorizontalAlignment="Left" Margin="53,50,0,0" VerticalAlignment="Top" FontSize="30" Width="94"/>
+        <TextBox x:Name="txtf2" HorizontalAlignment="Center" Margin="0,154,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="224" Height="50" FontSize="30"/>
+        <Label Content="password" HorizontalAlignment="Left" Margin="30,154,0,0" VerticalAlignment="Top" FontSize="30" Width="140"/>
+        <TextBox x:Name="txtf3" HorizontalAlignment="Center" Margin="0,261,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="224" Height="50" FontSize="30"/>
+        <Label Content="C password" HorizontalAlignment="Left" Margin="0,261,0,0" VerticalAlignment="Top" FontSize="30" Width="171"/>
+        <Button Content="UPDATE" HorizontalAlignment="Left" Margin="203,397,0,0" VerticalAlignment="Top" Width="166" Height="47" FontSize="30"/>
+        <Button Content="cancel" HorizontalAlignment="Left" Margin="86,610,0,0" VerticalAlignment="Top" Height="27" Width="98"/>
+
+    </Grid>
+</Page>
